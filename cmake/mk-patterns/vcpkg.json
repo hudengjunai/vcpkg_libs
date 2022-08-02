@@ -1,0 +1,11 @@
+{
+    "name": "mk-patterns",
+    "version-semver": "1.0.0",
+    "port-version": 1,
+    "description": "mpark patterns is a c++ pattern match library,an alternative is solodon4/Mach7",
+    "homepage": "https://github.com/mpark/patterns",
+    "dependencies": [
+    ],
+    "features": {
+    }
+}

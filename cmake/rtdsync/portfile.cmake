@@ -1,0 +1,15 @@
+vcpkg_from_github(
+    OUT_SOURCE_PATH SOURCE_PATH
+    REPO hudengjunai/rtdsync
+    REF cd662a036587fe51d08468cd127d7da2d3d2b067
+    SHA512 6a035ad54b28b8a8db42811264b9bbad22fad2060e4565ab93288b1b2b5a26c6ba70d317f1f683cddaa5b009b89f6b9e34408f28a7870b9d5140ab96014d945f 
+    HEAD_REF master
+)
+
+file(INSTALL
+    "${SOURCE_PATH}/include/"
+    DESTINATION "${CURRENT_PACKAGES_DIR}/include/"
+)
+
+file(INSTALL "${SOURCE_PATH}/README.md" DESTINATION "${CURRENT_PACKAGES_DIR}/share/${PORT}" RENAME copyright )
+

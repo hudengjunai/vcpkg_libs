@@ -1,0 +1,11 @@
+{
+    "name": "datasketches",
+    "version-semver": "3.2.0",
+    "port-version": 1,
+    "description": "this is the data sketch library",
+    "homepage": "https://github.com/apache/datasketches-cpp",
+    "dependencies": [
+    ],
+    "features": {
+    }
+}

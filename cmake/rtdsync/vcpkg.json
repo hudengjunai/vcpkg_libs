@@ -1,0 +1,11 @@
+{
+    "name": "rtdsync",
+    "version-semver": "3.2.0",
+    "port-version": 1,
+    "description": "a simple c++ waitgroup and channel impl",
+    "homepage": "https://github.com/blackredscarf/rtdsync",
+    "dependencies": [
+    ],
+    "features": {
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "cppflow",
+    "version-semver": "1.0.0",
+    "port-version": 1,
+    "description": "this is a tensorflow cpp client for load model in a rtp server",
+    "homepage": "https://github.com/serizba/cppflow",
+    "dependencies": [
+    ],
+    "features": {
+    }
+}

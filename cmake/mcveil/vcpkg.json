@@ -1,0 +1,11 @@
+{
+    "name": "mcveil",
+    "version-semver": "1.0.0",
+    "port-version": 1,
+    "description": "This is a c++ aspect oriented poramming library",
+    "homepage": "https://github.com/hudengjunai/mcveil",
+    "dependencies": [
+    ],
+    "features": {
+    }
+}

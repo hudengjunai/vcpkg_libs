@@ -1,0 +1,14 @@
+vcpkg_from_github(
+    OUT_SOURCE_PATH SOURCE_PATH
+    REPO akashihi/stlcache
+    REF c7382fdecc9d065e5034b2633166a8ac2d1c4c1c
+    SHA512 e7a43ab24a987b3e6c7f52bf3c40b79fc67a6fad325e27d3f18ae156e14f32b9caed28b01b94d9ec5d392b827f1423c1ded35424d5691d49b90fb9500ed9636e
+    HEAD_REF master
+)
+
+file(INSTALL
+    "${SOURCE_PATH}/include/"
+    DESTINATION "${CURRENT_PACKAGES_DIR}/include/"
+)
+
+file(INSTALL "${SOURCE_PATH}/LICENSE_1_0.txt" DESTINATION "${CURRENT_PACKAGES_DIR}/share/${PORT}" RENAME copyright )

@@ -1,0 +1,11 @@
+{
+    "name": "stlcache",
+    "version-semver": "1.0.0",
+    "port-version": 1,
+    "description": "a stl cache for multi policy and thread-safe",
+    "homepage": "https://github.com/akashihi/stlcache",
+    "dependencies": [
+    ],
+    "features": {
+    }
+}

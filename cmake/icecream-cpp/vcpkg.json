@@ -1,0 +1,11 @@
+{
+    "name": "icecream-cpp",
+    "version-semver": "0.3.1",
+    "port-version": 1,
+    "description": "a cpp debug tool library",
+    "homepage": "https://github.com/renatoGarcia/icecream-cpp",
+    "dependencies": [
+    ],
+    "features": {
+    }
+}
