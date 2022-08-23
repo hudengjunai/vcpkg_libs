@@ -58,7 +58,6 @@ vcpkg_cmake_configure(
         -DLIBAIO_FOUND=OFF
         -DFOLLY_NO_EXCEPTION_TRACER=ON
         -DCMAKE_INSTALL_DIR=share/folly
-        -DFOLLY_NO_EXCEPTION_TRACER=ON
         ${FEATURE_OPTIONS}
 )
 
